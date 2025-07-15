@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 
-URL = 'postgresql://postgres:dnQQALREuOpO5fcz@generously-trusting-kangaroo.data-1.use1.tembo.io:5432/grid'
+URL = 'postgresql+psycopg2://postgres:Marcelo@localhost:5432/grid'
 
 engine = create_engine(URL)
 
